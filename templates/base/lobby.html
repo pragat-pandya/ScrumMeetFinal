@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base/main.html' %}
 {% load static %}
 {% block content %}
 
@@ -23,7 +23,7 @@
 
                 <div class="form-field">
                     <label>Name:</label>
-                    <input name="name" placeholder="Enter your name..."  style="text-transform:uppercase"/>
+                    <input name="name" value="{{username}}"  style="text-transform:uppercase"/>
                 </div>
 
                 <div class="form-field">
